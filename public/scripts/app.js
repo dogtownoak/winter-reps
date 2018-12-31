@@ -157,3 +157,5 @@ thomsCloset[1][2] = "Footie Pajamas";
 // B. printCool
     let printCool = name => `${name} is cool`;
 // C. calculateCube
+    let calculateCube = number => number**3;
+// D. isVowel
