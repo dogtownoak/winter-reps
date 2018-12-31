@@ -95,6 +95,14 @@ if (number<100) {
     }
 
 // G. Monkey in the Middle
+if (number<5) {
+    console.log("little nubmer")
+    } else if (number> 10) {
+    console.log("big number")
+    } else {
+    console.log("monkey")
+    }
 
+// H. What's in your closet?
 
 
