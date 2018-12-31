@@ -159,3 +159,34 @@ thomsCloset[1][2] = "Footie Pajamas";
 // C. calculateCube
     let calculateCube = number => number**3;
 // D. isVowel
+    let vowels = ['a', 'e', 'i', 'o', 'u']
+    
+    let isVowel = function(letter) {
+        for (let i = 0; i<vowels.length; i++){
+            if (letter.toLowerCase() === vowels[i]) {
+                return true;
+            }
+        }
+        return false;
+    };
+
+    let isVowelES6 = letter => {
+        for (let i = 0; i<vowels.length; i++){
+            if (letter.toLowerCase() === vowels[i]) {
+                return true;
+            }
+        }
+        return false;
+    };
+// E. getTwoLengths
+    let getTwoLengths = (stringOne, stringTwo) => {
+        answerArray = [];
+        answerArray.push(stringOne.length, stringTwo.length);
+        return answerArray;
+    };
+// F. getMultipleLengths
+    let getMultipleLengths = arrayOfStrings => {
+        answerArray = [];
+        arrayOfStrings.forEach(array => answerArray.push(array.length))
+        return answerArray;
+    }
