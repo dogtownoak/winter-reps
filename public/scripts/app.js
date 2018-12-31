@@ -69,7 +69,24 @@ ourClass[4] = "Octocat";
 
 ourClass.push("Cloud City");
 
-// 
+// E. Mix it up
+const myArray = [5, 10, 500, 20];
+let myArrayTwo = [1, 2, 3, 4];
+    // 1. Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
+myArray.push("Egon", "Hello");
+
+    // 2. Remove the 5 from the beginning of the array.
+myArray.shift();
+
+    // 3. Add the string "Bob Marley" to the beginning of the array.
+myArray.unshift("Bob Marley");
+    // 4. Remove the string of your choise from the end of the array.
+myArray.pop();
+    // 5. Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+let reversed = myArray.reverse();
+    // It mutated the array.  To mutate is to change or affect a source element.  The method returned a reversed array.
+
+// F. Biggie Smalls
 
 
 
