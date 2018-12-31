@@ -87,6 +87,14 @@ let reversed = myArray.reverse();
     // It mutated the array.  To mutate is to change or affect a source element.  The method returned a reversed array.
 
 // F. Biggie Smalls
+let number = 49
+if (number<100) {
+    console.log("little number")
+    } else {
+    console.log("big number")
+    }
+
+// G. Monkey in the Middle
 
 
 
