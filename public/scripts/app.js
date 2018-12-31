@@ -152,4 +152,8 @@ console.log(`Thom can't wait to wear his ${thomsCloset[0][0]} with ${thomsCloset
 thomsCloset[1][2] = "Footie Pajamas";
 
 // Functions
-// A printGreeting
+// A. printGreeting
+    // Done
+// B. printCool
+    let printCool = name => `${name} is cool`;
+// C. calculateCube
