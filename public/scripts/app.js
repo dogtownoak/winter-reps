@@ -373,11 +373,16 @@ console.log(balance)
     user.age++
 // C. Adding keys and values
     // 1. Without changing the original user object, add a new key location to the object, and give it a value or some-or-other location (a string).
+    user.location = "San Francisco"
 // D. Shopaholic
     // 1. Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased array.
+    user.purchased.push('carbohydrates')
     // 2. Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased array.
+    user.purchased.push('peace of mind')
     // 3. Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchased array.
+    user.purchased.push('Merino jodhpurs')
     // 4. Console.log just the "Merino jodhpurs" from the purchased array.
+    console.log(user.purchased[2])
 // E. Object-within-object
     // 1. Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
     // 2. Console.log just the friend's name
