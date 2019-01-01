@@ -385,15 +385,28 @@ console.log(balance)
     console.log(user.purchased[2])
 // E. Object-within-object
     // 1. Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
+    user.friend = {name:"Cindy", age:"21", location:"Emeryville", purchased: []}
     // 2. Console.log just the friend's name
+    console.log(user.friend.name)
     // 3. Console.log just the friend's location
+    console.log(user.friend.location)
     // 4. CHANGE the friend's age to 55
+    user.friend.age = 55
     // 5. The friend has purchased "The One Ring". Use .push() to add "The One Ring" to the friend's purchased array.
+    user.friend.purchased.push("The One Ring")
     // 6. The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
+    user.friend.purchased.push("A latte")
     // 7. Console.log just "A latte" from the friend's purchased array.
+    console.log(user.friend.purchased[1])
 // F. Loops
     // 1. Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
+    for(let i = 0; i< user.purchased.length; i++){
+        console.log(user.purchased[i])
+    }
     // 2. Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
+    for(let i = 0; i< user.friend.purchased.length; i++){
+        console.log(user.friend.purchased[i])
+    }
 // G. Functions can operate on objects
     // 1. Write a single function updateUser that takes no parameters. When the function is run, it should:
             // it should increment the user's age by 1
