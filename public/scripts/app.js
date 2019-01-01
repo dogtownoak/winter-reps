@@ -412,4 +412,15 @@ console.log(balance)
             // it should increment the user's age by 1
             // make the user's name uppercase
         // The function does not need a return statement, it will merely modify the user object.
+        let updateUser = () => {
+            user.age++;
+            user.name = user.name.toUpperCase()
+        }
     // 2. Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
+        let oldAndLoud = person => {
+            this.age++;
+            this.name = this.name.toUpperCase()
+        }
+        person = user
+        console.log(oldAndLoud(user))
+        // not correct...check
